@@ -7,8 +7,25 @@ function sayHello() //sem parametro
 
 sayHello() //Função invocada apenas com os () 
 
-function sayHello(name) {
+function sayHelloTo(name) {
     console.log('Hello ' + name)
+    console.log(`Hello ${name}!`) // Interpolação usa-se crases `` e crifrão $ com chaves {...}
 }
 
-sayHello('Eduardo')
+sayHelloTo('Eduardo')
+
+
+function returHi (){ //Função não recebe parametro mas retorna um valor, no caso o HI
+    return 'Hi'
+}
+
+let greeting = returnHi()
+console.log(greeting)
+console.log(returnHi()) //chamando a função diretamente dentro do console.log
+
+
+function returnHiTo(name) { //Função que recebe parametro e returna algo 
+    return `Hi ${name}!`
+}
+
+console.log(returnHiTo('Junior'))
