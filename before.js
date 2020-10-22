@@ -12,7 +12,7 @@ function sayHelloTo(name) {
     console.log(`Hello ${name}!`) // Interpolação usa-se crases `` e crifrão $ com chaves {...}
 }
 
-sayHelloTo('Eduardo')
+sayHelloTo('junior')
 
 
 function returHi (){ //Função não recebe parametro mas retorna um valor, no caso o HI
@@ -28,4 +28,4 @@ function returnHiTo(name) { //Função que recebe parametro e returna algo
     return `Hi ${name}!`
 }
 
-console.log(returnHiTo('Junior'))
+console.log(returnHiTo('Edu'))
