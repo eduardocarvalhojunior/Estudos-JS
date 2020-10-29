@@ -98,3 +98,15 @@ let resultado = multiplicarPorDois(5);
 console.log(resultado);
 
 //-----------------------------
+
+
+//Operadores Aritiméticos ( operadores matemático +, -, *, / )
+
+
+++ //operador aritimético de incremento 
+
+-- // operador aritimético de decremento
+
+let valorTeclado = 100;
+valorTeclado += valorTeclado; 
+console.log(valorTeclado);
