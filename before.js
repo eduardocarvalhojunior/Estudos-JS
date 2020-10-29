@@ -66,5 +66,14 @@ let familia = [ 26, 44, 50, 'Edu'];
 
 console.log(familia[3]); // vai imprimir Edu // 
 
+//-------------------------------------------------------//
 
-function; 
+
+let corSite = "azul";
+function reseraCor(cor,tonalidade){
+    corSite = cor + tonalidade;
+};
+
+console.log(corSite);
+resetaCor("verde", " claro");
+console.log(corSite);
