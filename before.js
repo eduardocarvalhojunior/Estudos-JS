@@ -77,3 +77,24 @@ function reseraCor(cor,tonalidade){
 console.log(corSite);
 resetaCor("verde", " claro");
 console.log(corSite);
+
+// tem dois tipo de função : a que realiza uma tarefa/comando e aque não faz nada 
+
+
+function dizerNome(){
+    console.log('Edu');
+}
+dizerNome();
+
+
+//----------- retorna o resutdo do calculo 
+
+function multiplicarPorDois(valor){
+    return valor* 2;
+}
+
+let resultado = multiplicarPorDois(5);
+
+console.log(resultado);
+
+//-----------------------------
