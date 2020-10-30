@@ -158,3 +158,23 @@ let candidatoRecusado = !podeAplicar;
 console.log(candidatoRecusado);
 
 
+//-----------------------------------------------------------------
+
+// Condicionais -> Temos dois tipos : If / Else e temos o Switch / Case
+
+
+let hora = 22;
+
+if (hora > 6 && hora < 12) {
+    console.log("Bom dia");
+}
+
+else if (hora > 12 && hora < 18) {
+    console.log("Boa tarde");
+}
+else{
+    console.log("Boa noite");
+}
+
+//----------------------------------
+
