@@ -110,3 +110,51 @@ console.log(resultado);
 let valorTeclado = 100;
 valorTeclado += valorTeclado; 
 console.log(valorTeclado);
+
+
+//-----------------------------------------
+
+// Operador de igualdade
+
+// Igualdade Estrita
+console.log ( 1 === 1 ); // igual 3 vezes compara se é o mesmo valor e o mesmo tipo
+
+//igualdade solta  
+console.log ( '1' == 1); // igual 2 vezes ele compara apenas o valor, então é mais arriscado usar
+
+
+//---------------------------
+
+// Operador Ternario //
+
+let pontos = 200; 
+let tipo = pontos > 100 ? 'premium' : 'comum';
+
+console.log(tipo);
+
+// --------------------------
+
+// Operador logico e (&&) 
+
+console.log( true && true); // retorna true se os dois operandos forem true
+
+
+// Operador logico barra barra OU ( || )
+
+let maiorIdade = false;
+let possuiCarteira = true;
+let podeAplicar = maiorDeIdade || possuicarteiraDeTraalho
+
+
+console.log(podeAplicar);
+
+//------------------
+
+// Operador NOT ( ! ) usado para fazer negação 
+
+
+let candidatoRecusado = !podeAplicar;
+
+console.log(candidatoRecusado);
+
+
