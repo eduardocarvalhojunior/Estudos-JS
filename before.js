@@ -178,3 +178,32 @@ else{
 
 //----------------------------------
 
+switch (permissao) {
+    case 'comum':
+    console.log('usuario comum');
+    break; // para não continuar comparando com as condições abaixo//
+
+    case 'gerente':
+    console.log('usuario gerente');
+    break;
+
+    case 'diretor':
+    console.log('usuario diretor');
+    break;
+
+    default:
+    console.log('usuario desconhecido');
+}
+
+//-------------------------------------------
+//Loop
+
+
+
+// Laço for / while / do while / for in / for of /
+
+
+
+for(let i = 0; i < 5; i++) {
+    console.log('Estou aprendendo', i);
+}
