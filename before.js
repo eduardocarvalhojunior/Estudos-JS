@@ -123,23 +123,32 @@ console.log ( 1 === 1 ); // igual 3 vezes compara se é o mesmo valor e o mesmo 
 console.log ( '1' == 1); // igual 2 vezes ele compara apenas o valor, então é mais arriscado usar
 
 
+
 //---------------------------
 
+
 // Operador Ternario //
+
 
 let pontos = 200; 
 let tipo = pontos > 100 ? 'premium' : 'comum';
 
 console.log(tipo);
 
+
+
 // --------------------------
 
+
 // Operador logico e (&&) 
+
 
 console.log( true && true); // retorna true se os dois operandos forem true
 
 
+
 // Operador logico barra barra OU ( || )
+
 
 let maiorIdade = false;
 let possuiCarteira = true;
@@ -148,7 +157,10 @@ let podeAplicar = maiorDeIdade || possuicarteiraDeTraalho
 
 console.log(podeAplicar);
 
+
+
 //------------------
+
 
 // Operador NOT ( ! ) usado para fazer negação 
 
@@ -158,9 +170,12 @@ let candidatoRecusado = !podeAplicar;
 console.log(candidatoRecusado);
 
 
+
 //-----------------------------------------------------------------
 
+
 // Condicionais -> Temos dois tipos : If / Else e temos o Switch / Case
+
 
 
 let hora = 22;
@@ -176,7 +191,11 @@ else{
     console.log("Boa noite");
 }
 
+
+
 //----------------------------------
+
+
 
 switch (permissao) {
     case 'comum':
@@ -199,9 +218,7 @@ switch (permissao) {
 //Loop
 
 
-
 // Laço for / while / do while / for in / for of /
-
 
 
 for(let i = 0; i < 5; i++) {
