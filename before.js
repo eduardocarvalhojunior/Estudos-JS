@@ -224,3 +224,29 @@ switch (permissao) {
 for(let i = 0; i < 5; i++) {
     console.log('Estou aprendendo', i);
 }
+
+//-------------------------------------------
+
+
+// While Loop
+
+let i =5;
+while (i >=1) {
+    if(i % 2 !== 0){
+        console.log(i);
+    }
+    i--;
+}
+
+
+//-------------------------------------------
+
+// Do Whille 
+
+let i = 0;
+do { 
+    console.log('digitando', i);
+    i++;
+} while (i < 10)
+
+//---------------------------------------------------
