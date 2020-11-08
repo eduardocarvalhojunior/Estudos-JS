@@ -254,5 +254,18 @@ do {
 
 // Loop For In 
 
+const pessoa = {
+    nome: 'Eduardo',
+    idade: 28
+};
 
+for (let chave in pessoa) {
+    console.log(chave,pessoa['nome']);
 
+}
+
+const cores = ['vermelho', 'azul'];
+
+for (let indice in cores) {
+    console.log(indice,cores[indice])
+}
