@@ -1,5 +1,8 @@
 //function declaration
 
+
+// Como declarar uma variavel : VAR / LET / CONST 
+
 function sayHello() //sem parametro
 {
     console.log('Hello') //Função declarada mas não invocada
@@ -310,3 +313,27 @@ console.log(valorMaior);
 function max (numero1, numero2) {
     return numero1 > numero2 ? numero1: numero2;
 }
+
+// usar var no escopo vai vazar para outro escopo por isso usamos o let dentro do for por exemplo 
+// ------------------
+
+// FizzBuzz --> compara valore baseado no parametro de entrada
+
+const resultado = fizzBuzz(15);
+console.log(resultado);
+
+function fizzBuzz(entrada){
+    if (typeof entrada !== 'number')
+        return 'Não é um número';
+    if ((entrada % 3 === 0) && (entrada % 5 === 0))
+        return 'FizzBuzz';
+    if (entrada % 3 === 0)
+        return 'Fizz';
+    if (entrada % 5 === 0)
+        return 'Buzz';
+
+    return entrada;
+}           
+
+// ------------------------
+
