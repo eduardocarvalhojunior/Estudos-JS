@@ -288,7 +288,7 @@ for(let cor of cores) {
 }
 
 
-//----------------------------------------------------------------
+//--------------------------------------------------------------------------------
 
 // Escreva uma função que usa 2 numeros e retorna o maior entre eles 
 
@@ -302,7 +302,7 @@ function max (numero1, numero2) {
     else return numero2;
 }
 
-//----------------------------------------------------------------
+//--------------------------------------------------------------------------
 
 // Modo simplificado -----------------------------------// ****** Aula 24
 
@@ -315,7 +315,7 @@ function max (numero1, numero2) {
 }
 
 // usar var no escopo vai vazar para outro escopo por isso usamos o let dentro do for por exemplo 
-// ------------------
+// ---------------------------------------------------------------
 
 // FizzBuzz --> compara valore baseado no parametro de entrada
 
@@ -335,5 +335,5 @@ function fizzBuzz(entrada){
     return entrada;
 }           
 
-// ------------------------
+// ------------------------------------------------------------------
 
